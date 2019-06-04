@@ -9,7 +9,7 @@
   // date names
   "generic.now": "现在",
   "generic.tomorrow": "明天",
-  "generic.yesterday": "yesterday", // TODO
+  "generic.yesterday": "昨天", // TODO
 
   // generic field values
   "generic.percent": "{{percent}}%",
@@ -24,14 +24,14 @@
   "generic.hours": "{{count}}小时",
   "generic.days": "{{count}}天",
   "generic.in-x-days": "在{{count}}天内",
-  "generic.x-days-ago": "{{count}} days ago", // TODO
-  "generic.price": "{{price}}g",
+  "generic.x-days-ago": "在{{count}}天前 days ago", // TODO
+  "generic.price": "{{price}}G",
   "generic.price-for-quality": "{{price}}g({{quality}})",
-  "generic.price-for-stack": "{{count}}个，总共价值{{price}}g",
+  "generic.price-for-stack": "{{count}}个，总共价值{{price}}G",
 
   // types
   "type.building": "建筑",
-  "type.bush": "Bush", // TODO
+  "type.bush": "灌木丛", // TODO
   "type.fruit-tree": "果树",
   "type.map-tile": "地格",
   "type.monster": "怪物",
@@ -42,9 +42,9 @@
 
   // item qualities
   "quality.normal": "普通",
-  "quality.silver": "银星",
-  "quality.gold": "金星",
-  "quality.iridium": "铱星",
+  "quality.silver": "银色品质",
+  "quality.gold": "金色品质",
+  "quality.iridium": "铱品质",
 
   // NPC friendship
   "friendship-status.friendly": "友好的",
@@ -62,7 +62,7 @@
   "bundle-area.fish-tank": "鱼缸",
   "bundle-area.boiler-room": "锅炉房",
   "bundle-area.vault": "地下室",
-  "bundle-area.bulletin-board": "布告栏",
+  "bundle-area.bulletin-board": "公告栏",
 
   // shop names
   "shop.adventure-guild": "探险家公会",
@@ -97,12 +97,12 @@
   "data.item.broken-branch.description": "一条碎枝。用斧劈砍之后可以获得木材。",
   "data.item.stone.name": "石头",
   "data.item.stone.description": "一颗常见的灰色石头。打碎之后可以获得石头。",
-  "data.item.geode.name": "晶洞矿点",
-  "data.item.geode.description": "打碎之后可以获得晶洞。",
-  "data.item.frozen-geode.name": "冰封晶洞矿点",
-  "data.item.frozen-geode.description": "打碎之后可以获得冰封晶洞。",
-  "data.item.magma-geode.name": "巨大晶洞矿点",
-  "data.item.magma-geode.description": "打碎之后可以获得巨大晶洞。",
+  "data.item.geode.name": "晶石矿",
+  "data.item.geode.description": "打碎之后可以获得晶石。",
+  "data.item.frozen-geode.name": "寒冰晶石矿",
+  "data.item.frozen-geode.description": "打碎之后可以获得寒冰晶石。",
+  "data.item.magma-geode.name": "熔岩晶石矿",
+  "data.item.magma-geode.description": "打碎之后可以获得熔岩晶石。",
 
   // weeds & crystals
   "data.item.weed.name": "杂草",
@@ -113,35 +113,35 @@
   "data.item.ice-crystal.description": "一颗常见的杂草，有非常小的概率获得精炼石英。",
 
   // mine gems
-  "data.item.amethyst-node.name": "紫水晶矿点",
+  "data.item.amethyst-node.name": "紫水晶矿",
   "data.item.amethyst-node.description": "打碎之后可以获得紫水晶。",
-  "data.item.aquamarine-node.name": "海蓝宝石矿点",
+  "data.item.aquamarine-node.name": "海蓝宝石矿",
   "data.item.aquamarine-node.description": "打碎之后可以获得海蓝宝石。",
-  "data.item.diamond-node.name": "钻石矿点",
+  "data.item.diamond-node.name": "钻石矿",
   "data.item.diamond-node.description": "打碎之后可以获得钻石。",
-  "data.item.emerald-node.name": "绿宝石矿点",
+  "data.item.emerald-node.name": "绿宝石矿",
   "data.item.emerald-node.description": "打碎之后可以获得绿宝石。",
-  "data.item.gem-node.name": "宝石矿点",
+  "data.item.gem-node.name": "宝石矿",
   "data.item.gem-node.description": "打碎之后可以获得绿宝石、海蓝宝石、红宝石、紫水晶、黄水晶、翡翠或钻石。",
-  "data.item.jade-node.name": "翡翠矿点",
+  "data.item.jade-node.name": "翡翠矿",
   "data.item.jade-node.description": "打碎之后可以获得翡翠。",
   "data.item.mystic-stone.name": "神秘石",
   "data.item.mystic-stone.description": "打碎之后可以获得稀有宝石和矿石，包括五彩碎片。",
-  "data.item.prismatic-node.name": "五彩矿点",
+  "data.item.prismatic-node.name": "五彩矿",
   "data.item.prismatic-node.description": "打碎之后可以获得五彩碎片。",
-  "data.item.ruby-node.name": "红宝石矿点",
+  "data.item.ruby-node.name": "红宝石矿",
   "data.item.ruby-node.description": "打碎之后可以获得红宝石。",
-  "data.item.topaz-node.name": "黄水晶矿点",
+  "data.item.topaz-node.name": "黄水晶矿",
   "data.item.topaz-node.description": "打碎之后可以获得黄水晶。",
 
   // mine ores
-  "data.item.copper-node.name": "铜矿点",
+  "data.item.copper-node.name": "铜矿",
   "data.item.copper-node.description": "打碎之后可以获得铜矿石。",
-  "data.item.gold-node.name": "黄金矿点",
+  "data.item.gold-node.name": "黄金矿",
   "data.item.gold-node.description": "打碎之后可以获得黄金矿石。",
-  "data.item.iridum-node.name": "铱矿点",
+  "data.item.iridum-node.name": "铱矿",
   "data.item.iridum-node.description": "打碎之后可以获得铱矿石。",
-  "data.item.iron-node.name": "铁矿点",
+  "data.item.iron-node.name": "铁矿",
   "data.item.iron-node.description": "打碎之后可以获得铁矿石。",
 
   // mine stones
@@ -214,15 +214,15 @@
 
   // bush lookup labels
   // TODO
-  "bush.name.berry": "Berry Bush",
-  "bush.name.plain": "Plain Bush",
-  "bush.description.berry": "A bush that grows salmonberries and blackberries.",
-  "bush.description.plain": "A plain bush that doesn't grow anything.",
-  "bush.next-harvest": "Next harvest",
+  "bush.name.berry": "树莓丛",
+  "bush.name.plain": "灌木丛",
+  "bush.description.berry": "会长树梅和黑莓的灌木丛",
+  "bush.description.plain": "不会长任何东西的灌木丛",
+  "bush.next-harvest": "下一次收获",
 
   // bush lookup values
   // TODO
-  "bush.schedule.berry": "20% chance of salmonberries in spring 15-18 and blackberries in fall 8-11.",
+  "bush.schedule.berry": "有20%的几率会在春天15日到18日之内长出树莓，也有20%的几率在秋天8日到11日之内长出黑莓。",
 
   // fruit tree lookup labels
   "fruit-tree.complaints": "问题",
@@ -305,7 +305,7 @@
   "item.number-crafted.summary": "你已制造{{count}}个此物",
 
   // monster lookup labels
-  "monster.invincible": "无敌的",
+  "monster.invincible": "无敌",
   "monster.health": "血量",
   "monster.drops": "掉落",
   "monster.experience": "经验",
@@ -326,7 +326,7 @@
   "npc.talked-today": "今天已交谈",
   "npc.gifted-today": "今天已送礼",
   "npc.gifted-this-week": "本周送礼",
-  "npc.kissed-today": "Kissed today", // TODO
+  "npc.kissed-today": "今天已亲吻", // TODO
   "npc.loves-gifts": "最爱",
   "npc.likes-gifts": "喜欢",
   "npc.neutral-gifts": "普通",
@@ -350,7 +350,7 @@
 
   // pet lookup labels
   "pet.love": "友好度",
-  "pet.petted-today": "今日已爱抚",
+  "pet.petted-today": "今日已抚摸",
 
   // player lookup labels
   "player.farm-name": "农场名字",
